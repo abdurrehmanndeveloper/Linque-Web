@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@import "react-datepicker/dist/react-datepicker.css";
+
+.react-calendar {
+  background-color: transparent !important;
+  padding: 16px;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.react-calendar__tile {
+  background: transparent !important;
+  padding: 10px;
+  color: #134C46 !important;
+  font-size: 15px !important;
+  font-weight: bold !important;
+}
+
+.react-calendar__tile--active {
+  background: #6A14DC !important;
+  color: white !important;
+}
+
+.react-calendar__tile:hover {
+  background: #d2b4ff !important; /* hover effect */
+}
