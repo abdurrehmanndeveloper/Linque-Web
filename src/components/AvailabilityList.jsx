@@ -8,7 +8,7 @@ export default function AvailabilityList({ date }) {
   const { buckets, loading, error } = useSelector(
     (state) => state.availability
   );
-
+  
   const [token, setToken] = useState(null);
 
   // ✅ Safe token fetch on client only
